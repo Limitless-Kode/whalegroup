@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/whalegroup/static/css/main.d154e328.chunk.css",
+    "main.js": "/whalegroup/static/js/main.2fb05480.chunk.js",
+    "main.js.map": "/whalegroup/static/js/main.2fb05480.chunk.js.map",
+    "runtime-main.js": "/whalegroup/static/js/runtime-main.23d395b4.js",
+    "runtime-main.js.map": "/whalegroup/static/js/runtime-main.23d395b4.js.map",
+    "static/js/2.11182033.chunk.js": "/whalegroup/static/js/2.11182033.chunk.js",
+    "static/js/2.11182033.chunk.js.map": "/whalegroup/static/js/2.11182033.chunk.js.map",
+    "index.html": "/whalegroup/index.html",
+    "precache-manifest.b45fb726c8a310078242e6604f0d8229.js": "/whalegroup/precache-manifest.b45fb726c8a310078242e6604f0d8229.js",
+    "service-worker.js": "/whalegroup/service-worker.js",
+    "static/css/main.d154e328.chunk.css.map": "/whalegroup/static/css/main.d154e328.chunk.css.map",
+    "static/js/2.11182033.chunk.js.LICENSE.txt": "/whalegroup/static/js/2.11182033.chunk.js.LICENSE.txt",
+    "static/media/style.scss": "/whalegroup/static/media/bg.d0cdbd8d.png",
+    "static/media/1.jpg": "/whalegroup/static/media/1.caf9f4c3.jpg",
+    "static/media/2.jpg": "/whalegroup/static/media/2.210839f4.jpg",
+    "static/media/3.jpg": "/whalegroup/static/media/3.f2e415a7.jpg",
+    "static/media/4.jpg": "/whalegroup/static/media/4.acecf1f0.jpg",
+    "static/media/5.jpg": "/whalegroup/static/media/5.ffd9b8b3.jpg",
+    "static/media/6.jpg": "/whalegroup/static/media/6.16761247.jpg",
+    "static/media/7.jpg": "/whalegroup/static/media/7.0cef6c18.jpg",
+    "static/media/8.jpg": "/whalegroup/static/media/8.fc8115a2.jpg",
+    "static/media/flaticon.css": "/whalegroup/static/media/Flaticon.f01b8d04.eot",
+    "static/media/ionicons.min.css": "/whalegroup/static/media/ionicons.621bd386.svg",
+    "static/media/quote.mp4": "/whalegroup/static/media/quote.0cfab5dd.mp4",
+    "static/media/team1.png": "/whalegroup/static/media/team1.3636cdcd.png",
+    "static/media/team2.png": "/whalegroup/static/media/team2.4b4feb65.png",
+    "static/media/team3.png": "/whalegroup/static/media/team3.eaea3b55.png",
+    "static/media/team4.png": "/whalegroup/static/media/team4.b504828c.png",
+    "static/media/user.png": "/whalegroup/static/media/user.407c3f91.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.23d395b4.js",
+    "static/js/2.11182033.chunk.js",
+    "static/css/main.d154e328.chunk.css",
+    "static/js/main.2fb05480.chunk.js"
+  ]
+}
