@@ -1,0 +1,48 @@
+.card{
+    &:hover{
+        background-color: $primary-color;
+        color: $offwhite;
+        .card__content{
+            color: $offwhite;
+        }
+        .card__icon{
+            color: $offwhite;
+        }
+        .card__title{
+            color: $offwhite;
+        }
+        .card__link a{
+            color: $offwhite;
+        }
+    }
+    .card__icon{
+        font-size: 36px;
+        margin-bottom: 30px;
+        color: $primary-color;
+    }
+
+    // max-width: 350px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    padding: 45px 40px;
+    transition: all .4s ease-out 0s;
+    z-index: 1;
+    background: #ffff;
+
+    .card__title{
+        font-weight: 700;
+        font-size: 22px;
+        margin-bottom: 20px;
+        color: $title-color;
+    }
+    .card__content{
+        margin-bottom: 36px;
+        color: #57667e;
+        font-size: 13px;
+        transition: all .2s ease-out 0s;
+        line-height: 22px;
+    }
+    .card__link{
+        font-size: 13px;
+    }
+}

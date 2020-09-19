@@ -1,0 +1,39 @@
+.teachers{
+    min-height: 90vh;
+    background: url('../images/teachers/bg.png') center center /cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    .teachers__title{
+        margin-bottom: 60px;
+        h2{
+            font-size: 46px;
+            color: $offwhite;
+        }
+    }
+    .teachers__list{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        grid-gap: 30px;
+        margin-bottom: 90px;
+    }
+}
+
+@media(max-width: 460px){
+    .teachers{
+        padding: 30px;
+        .teachers__title{
+            margin-bottom: 30px;
+            h2{
+                font-size: 32px;
+            }
+        }
+        .teachers__list{
+            grid-gap: 20px;
+            margin-bottom: 45px;
+        }
+    }
+}

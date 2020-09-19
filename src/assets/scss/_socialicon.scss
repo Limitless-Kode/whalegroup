@@ -1,0 +1,19 @@
+.social_icon{
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    border-radius: 15px;
+    background-color: $offwhite;
+    color: $offwhite;
+}
+
+@media(max-width: 1264px){
+    .social_icon{
+        height: 45px;
+        width: 45px;
+        font-size: 22px;
+    }
+}

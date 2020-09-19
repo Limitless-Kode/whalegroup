@@ -1,0 +1,30 @@
+.video_player{
+    position: relative;
+    video{
+        width: 100%;
+        height: 450px;
+        object-fit: cover;
+    }
+    &__play_pause{
+        font-size: 36px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 60px;
+        width: 60px;
+        background-color: $primary-color;
+        color: $offwhite;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.5s;
+        
+    }
+    &.playing &__play_pause{
+        height: 600px;
+        width: 600px;
+        opacity: 0;
+    }
+}

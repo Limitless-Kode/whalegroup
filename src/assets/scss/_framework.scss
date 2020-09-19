@@ -1,0 +1,106 @@
+h1, h2, h3, h4, h5, h6{
+    color: $title-color;
+}
+
+a{
+    color: $primary-color;
+    text-decoration: none;
+}
+
+p{
+    line-height: 1.5;
+    color: $text-color;
+    font-size: 13px;
+}
+
+.star{
+    font-size: 18px;
+    margin: 0px 2px;
+    color: $skyblue;
+    &.active{
+        color: $gold;
+    }
+}
+
+.btn,
+button{
+    background: #2d3092;
+    padding: 25px 30px;
+    color: #fff;
+    &.white{
+        background-color: $offwhite;
+        color: $primary-color;
+        font-weight: 700;
+        &::before{
+            background-color: rgba($color: $skyblue, $alpha: 0.3) !important;
+        }
+    }
+    position: relative;
+    animation-delay: 0.8s;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 5px;
+    -moz-user-select: none;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 0;
+    margin-bottom: 0;
+    margin: 10px;
+    cursor: pointer;
+    transition: color 0.4s linear;
+    position: relative;
+    z-index: 1;
+    border: 0;
+    overflow: hidden;
+    margin: 0;
+    transition: all 0.5s;
+    &.small{
+        padding: 18px 10px;
+        font-size: 14px;
+    }
+    &.medium{
+        padding: 20px 15px;
+        font-size: 15px;
+    }
+    &.outline-primary{
+        border: 2px solid $primary-color;
+        background-color: $offwhite;
+        color: $primary-color;
+        border-radius: 0;
+    }
+    &.outline-white{
+        border: 2px solid $offwhite;
+        color: $offwhite;
+        border-radius: 0;
+    }
+    &::before{
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: -100%;
+        background-color: rgba($color: $seablue, $alpha: 1);
+        transition: all 0.5s;
+        animation: slideBounceOut 0.5s linear;
+        z-index: -1;
+    }
+    &:hover::before{
+        animation: slideBounceIn 0.5s linear;
+        left: 0%;
+    }
+}
+
+@keyframes slideBounceIn{
+    0%{ left: -100%; }
+    70%{ left: 0%; }
+    90%{ left: -10%; }
+    100%{ left: 0%; }
+}
+
+@keyframes slideBounceOut{
+    0%{ left: 0%; }
+    70%{ left: -100%; }
+    90%{ left: -90%; }
+    100%{ left: -100%; }
+}

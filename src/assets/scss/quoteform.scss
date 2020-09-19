@@ -1,0 +1,60 @@
+.quote__form{
+    width: 100%;
+    &__title{
+        margin-bottom: 15px;
+        h3{
+            font-size: 36px;
+        }
+    }
+    &__subtitle{
+        margin: auto;
+        width: 80%;
+        margin-bottom: 30px;
+        p{
+            font-size: 14px;
+        }
+    }
+    form{
+        margin: auto;
+        width: 80%;
+        .form-group{
+            margin: 15px 0px;
+        }
+        button{
+            margin: 15px 0px;
+        }
+    }
+    &__twin{
+        display: flex;
+        padding: 0px;
+        grid-gap: 10px;
+        width: 100%;
+        div{
+            width: 100%;
+        }
+    }
+}
+
+
+@media(max-width: 460px){
+    .quote__form{
+        &__title{
+            margin-bottom: 10px;
+            h3{
+                font-size: 26px;
+            }
+        }
+        &__subtitle{
+            width: 100%;
+        }
+        form{
+            width: 100%;
+        }
+        &__twin{
+            flex-direction: column;
+            width: 100%;
+        }
+    }
+    
+    
+}

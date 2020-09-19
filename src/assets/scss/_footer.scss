@@ -1,0 +1,115 @@
+.footer{
+    padding: 60px;
+    background-color: $dark;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    &__social{
+        display: flex;
+        justify-content: space-around;
+        width: 70vw;
+
+        &__subscribe{
+            input{
+                height: 60px;
+                padding: 0px 35px;
+                border: none;
+                width: 460px;
+            }
+            button{
+                height: 60px;
+                padding: 0px 35px;
+                border-radius: 0;
+            }
+        }
+
+        h5{
+            font-size: 28px;
+            color: $offwhite;
+            margin-bottom: 45px;
+            font-weight: 400;
+        }
+        &__icons{
+            display: flex;
+            grid-gap: 20px;
+        }
+    }
+}
+
+@media(max-width: 1264px){
+    .footer{
+        padding: 45px;
+        &__social{
+            width: 70vw;
+            &__subscribe{
+                input{
+                    height: 45px;
+                    width: 300px;
+                }
+                button{
+                    height: 45px;
+                }
+            }
+            h5{
+                font-size: 26px;
+                margin-bottom: 35px;
+            }
+            &__icons{
+                justify-content: space-between;
+            }
+        }
+    }    
+}
+
+@media(max-width: 860px){
+    .footer{
+        padding: 45px;
+        &__social{
+            flex-direction: column;
+            width: 90vw;
+            &__subscribe{
+                input{
+                    height: 45px;
+                    width: 60vw;
+                }
+                button{
+                    height: 45px;
+                }
+            }
+            h5{
+                font-size: 20px;
+                margin-bottom: 25px;
+            }
+            &__icons{
+                grid-gap: 10px;
+            }
+        }
+    }    
+}
+
+@media(max-width: 460px){
+    .footer{
+        padding: 45px;
+        &__social{
+            flex-direction: column;
+            width: 90vw;
+            &__subscribe{
+                input{
+                    width: 90vw;
+                    margin-bottom: 10px;
+                }
+                button{
+                    width: 90vw;
+                }
+            }
+            h5{
+                font-size: 18px;
+                margin-bottom: 20px;
+            }
+            &__icons{
+                grid-gap: 20px;
+            }
+        }
+    }    
+}

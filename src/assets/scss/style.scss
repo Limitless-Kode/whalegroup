@@ -1,0 +1,54 @@
+/* Theme Description
+-------------------------------------------------
+
+	  Theme Name:
+	  Author:
+	  Support:
+	  Description:
+	  Version:
+	  
+------------------------------------------------- 
+*/
+
+/* CSS Index
+-------------------------------------------------
+
+	1. Theme default css
+	2. header
+	3. slider
+	4. about-area
+	5. features-box
+	6. department
+	7. team
+	8. video-area
+	9. counter
+	10. footer
+
+-------------------------------------------------
+*/
+
+// Default
+@import 'normalize';
+@import 'variables';
+@import 'reset';
+@import 'animations';
+@import 'framework';
+
+
+// component styles
+@import 'navigation';
+@import 'inputbox';
+@import 'jumbotron';
+@import 'offers';
+@import 'card';
+@import 'knowmore';
+@import 'listicon';
+@import 'teachers';
+@import 'teachercard';
+@import 'quote';
+@import 'quoteform';
+@import 'videoplayer';
+@import 'testimonies';
+@import 'footer';
+@import 'socialicon';
+

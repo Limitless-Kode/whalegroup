@@ -1,0 +1,121 @@
+.testimonies{
+    min-height: 50vh;
+    background: url('../images/testimonies/bg.png') center center /cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+
+    &__screen{
+        display: flex;
+        flex-shrink: 0;
+        // flex-basis: 33%;
+        width: 33vw;
+        display: flex;
+        justify-content: flex-start;
+        transition: all linear 0.8s;
+        overflow: hidden;
+       &__slide{
+        display: flex;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        flex-basis: 33%;
+        transition: all linear 0.8s;
+        &:first-child{
+            margin-left: -30px;
+        }
+        &:last-child{
+            margin-right: -30px;
+        }
+       }
+    }
+
+    &__prev, &__next{
+        color: #fff;
+        font-size: 24px;
+        padding: 30px;
+        cursor: pointer;
+    }
+    &__prev{
+        margin-right: 120px;
+    }
+    &__next{
+        margin-left: 120px;
+    }
+
+    // Testimony card styling
+    .testimony_card{
+        width: 30vw;
+        margin: 0px 30px;
+        text-align: center;
+        &__testimony{
+            margin: 30px 0px;
+            p{
+                font-size: 16px;
+                color: #fff;
+            }
+        }
+        &__title{
+            margin: 20px 0px;
+            h4{
+                font-size: 18px;
+                color: #fff;
+                font-weight: 400;
+            }
+        }
+    }
+}
+
+
+
+@media(max-width: 1000px){
+    .testimonies{
+        &__screen{
+            flex-basis: 50%;
+        }
+    
+        &__prev{
+            margin-right: 90px;
+        }
+        &__next{
+            margin-left: 90px;
+        }
+    
+        // Testimony card styling
+        .testimony_card{
+            width: 40vw;
+            margin: 0px 30px;
+        }
+    }
+    
+}
+
+@media(max-width: 460px){
+    .testimonies{
+        &__screen{
+            flex-basis: 100%;
+        }
+    
+        &__prev{ margin-right: 0px; }
+        &__next{ margin-left: 0px; }
+    
+        // Testimony card styling
+        .testimony_card{
+            width: 68vw;
+            margin: 0px 30px;
+            &__testimony{
+                margin: 30px 0px;
+                p{
+                    font-size: 14px;
+                }
+            }
+            &__title{
+                margin: 20px 0px;
+                h4{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    
+}

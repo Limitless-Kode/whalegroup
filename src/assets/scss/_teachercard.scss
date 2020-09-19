@@ -1,0 +1,61 @@
+.teacher_card{
+    background-color: #fff;
+    width: 230px;
+    height: 300px;
+    &__image{
+        height: 70%;
+        cursor: pointer;
+        & img{
+            width: 100%;
+        }
+        &:hover img{
+            transition: all 0.5s;
+            transform: scale(1.1);
+        }
+        overflow: hidden;
+    }
+    &__description{
+        text-align: center;
+        &__title{
+            font-size: 16px;
+            h3{
+                margin: 15px 0px 0px 0px;
+            }
+        }
+    }
+}
+
+
+@media(max-width: 460px){
+    .teacher_card{
+        background-color: #fff;
+        width: 40vw;
+        height: auto;
+        &__description{
+            padding: 5px;
+            &__title{
+                font-size: 12px;
+                h3{
+                    margin: 5px 0px 0px 0px;
+                }
+            }
+        }
+    }    
+}
+
+@media(max-width: 360px){
+    .teacher_card{
+        background-color: #fff;
+        width: 60vw;
+        height: auto;
+        &__description{
+            padding: 5px;
+            &__title{
+                font-size: 16px;
+                h3{
+                    margin: 10px 0px 0px 0px;
+                }
+            }
+        }
+    }    
+}
