@@ -1,6 +1,8 @@
 import React from 'react';
+import Gallery from '../components/gallery.component';
 import Jumbotron from '../components/jumbotron.component';
 import ListIcon from '../components/ListIcon.component';
+import Map from '../components/map.component';
 import Offers from '../components/offers.component';
 import Quote from '../components/quote.component';
 import Teachers from '../components/teachers.component';
@@ -37,6 +39,8 @@ export default function Home(props) {
             <Teachers />
             <Quote />
             <Testimonies />
+            <Gallery />
+            <Map />
         </div>
       );    
 }

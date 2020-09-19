@@ -6,7 +6,7 @@ export default function Jumbotron(props){
     <section className="jumbotron">
       <div className="jumbotron__description">
         <div className="jumbotron__description__text">
-          <p>The WITS School</p>
+          <p>The Whale Group</p>
         </div>
         <div className="jumbotron__description__title">
           <h1>The New Way To Learn Properly is With Us!</h1>

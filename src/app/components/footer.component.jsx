@@ -15,11 +15,11 @@ export default function Footer(props) {
                 <div className="footer__social__links">
                     <h5>Let's Get Social</h5>
                     <div className="footer__social__icons">
-                        <SocialIcon icon="ion-social-facebook" styles={{backgroundColor: '#3b5998'}} url="#"/>
-                        <SocialIcon icon="ion-social-instagram" styles={{backgroundColor: '#bb1500'}} url="#" />
-                        <SocialIcon icon="ion-social-twitter" styles={{backgroundColor: '#3498db'}} url="#" />
-                        <SocialIcon icon="ion-social-youtube" styles={{backgroundColor: '#ff0000'}} url="#" />
-                        <SocialIcon icon="ion-social-whatsapp" styles={{backgroundColor: '#1bd100'}} url="#" />
+                        <SocialIcon icon="ion-social-facebook" url="#"/>
+                        <SocialIcon icon="ion-social-instagram" url="#" />
+                        <SocialIcon icon="ion-social-twitter" url="#" />
+                        <SocialIcon icon="ion-social-youtube" url="#" />
+                        <SocialIcon icon="ion-social-whatsapp" url="#" />
                     </div>
                 </div>
             </div>
