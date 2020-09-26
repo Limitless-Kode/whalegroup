@@ -11,9 +11,11 @@
         margin-bottom: 60px;
     }
     .offers__cards{
-        display: flex;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
         grid-gap: 20px;
-        // width: 70vw;
+        flex-wrap: wrap;
+        width: 70vw;
     }
 }
 

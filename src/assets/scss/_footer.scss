@@ -1,15 +1,22 @@
 .footer{
-    padding: 60px;
     background-color: $dark;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     width: 100vw;
+    &__bottom{
+        text-align: center;
+        padding: 30px;
+        background-color: $primary-shade;
+        color: $offwhite;
+        width: 100vw;
+    }
     &__social{
+        padding: 30px;
         display: flex;
         justify-content: space-around;
-        width: 70vw;
-
+        width: 100%;
         &__subscribe{
             input{
                 height: 45px;
@@ -27,21 +34,19 @@
         h5{
             font-size: 28px;
             color: $offwhite;
-            margin-bottom: 45px;
+            margin-bottom: 30px;
             font-weight: 400;
         }
         &__icons{
             display: flex;
-            grid-gap: 10px;
+            grid-gap: 20px;
         }
     }
 }
 
 @media(max-width: 1264px){
     .footer{
-        padding: 45px;
         &__social{
-            width: 70vw;
             &__subscribe{
                 input{
                     height: 45px;
@@ -61,10 +66,8 @@
 
 @media(max-width: 860px){
     .footer{
-        padding: 45px;
         &__social{
             flex-direction: column;
-            width: 90vw;
             &__subscribe{
                 input{
                     height: 45px;
@@ -87,10 +90,8 @@
 
 @media(max-width: 460px){
     .footer{
-        padding: 45px;
         &__social{
             flex-direction: column;
-            width: 90vw;
             &__subscribe{
                 input{
                     width: 90vw;

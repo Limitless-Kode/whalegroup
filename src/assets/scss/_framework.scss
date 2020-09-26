@@ -1,5 +1,10 @@
 h1, h2, h3, h4, h5, h6{
     color: $title-color;
+    font-family: $title-font;
+}
+
+body{
+    font-family: $primary-font;
 }
 
 a{
@@ -11,6 +16,7 @@ p{
     line-height: 1.5;
     color: $text-color;
     font-size: 13px;
+    font-family: $primary-font;
 }
 
 .star{

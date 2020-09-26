@@ -19,7 +19,7 @@ export default function Home(props) {
                         <h2>Want to Know more</h2>
                     </div>
                     <div className="description">
-                        <p>There arge many variations ohf passages of sorem gpsum ilable, but the majority have suffered alteration in some form, by ected humour, or randomised words whi.</p>
+                        <p>Whale Learning Group is a portfolio of exciting brands, each of which specialise  in experiential learning and play for children, content for TV &amp; Radio, spanning print, online, outdoor events for schools, literacy programs, summer camps and preschool, afterschool and K-12 for Children.</p>
                     </div>
                     <div className="know_more__description__list">
                         <ListIcon iconName="flaticon-computing" text="Creative ideas base"/>
@@ -37,9 +37,9 @@ export default function Home(props) {
                 </div>
             </section>
             <Teachers />
-            <Quote />
-            <Testimonies />
             <Gallery />
+            <Testimonies />
+            <Quote />
             <Map />
         </div>
       );    

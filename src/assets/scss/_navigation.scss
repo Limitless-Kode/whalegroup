@@ -1,9 +1,8 @@
 .navigation{
     font-style: normal;
     font-weight: normal;
-    font-family: "Roboto", sans-serif;
-    width: 100vw;
     height: 90px;
+    width: 100vw;
     background-color: white;
     display: flex;
     align-items: center;
@@ -12,6 +11,7 @@
     &__links{
         display: flex;
         a{
+            outline: none;
             padding: 20px 35px;
             color: $dark;
             font-weight: 500;

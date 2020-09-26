@@ -23,6 +23,9 @@ export default function Footer(props) {
                     </div>
                 </div>
             </div>
+            <div className="footer__bottom">
+                Developed With &nbsp; <i className="ion-ios-heart-outline"></i>&nbsp; by Dotlogics
+            </div>
         </footer>
     );
 }

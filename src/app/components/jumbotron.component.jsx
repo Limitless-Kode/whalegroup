@@ -6,10 +6,10 @@ export default function Jumbotron(props){
     <section className="jumbotron">
       <div className="jumbotron__description">
         <div className="jumbotron__description__text">
-          <p>The Whale Group</p>
+          <p>The Whale Learning Group</p>
         </div>
         <div className="jumbotron__description__title">
-          <h1>The New Way To Learn Properly is With Us!</h1>
+          <h1>Discovering Geniuses Through Wisdom Intelligence Training</h1>
         </div>
         <div className="button">
           <button className="btn">Get Started</button>

@@ -11,7 +11,7 @@ export default function Navigation(){
             <div className="navigation__links">
                 <Link to="/">Home</Link>
                 <Link to="/about">About</Link>
-                <Link to="/courses">Courses</Link>
+                <Link to="/books">Books</Link>
                 <Link to="/instructors">Instructors</Link>
                 {/* <Link className="btn" to="/apply">Apply Now</Link> */}
             </div>

@@ -5,12 +5,16 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    &__title{
+        font-size: clamp(14px, 10vw, 22px);
+        margin-bottom: 30px;
+    }
     &__images{
         width: 70vw;
         display: flex;
         flex-wrap: wrap;
         grid-gap: 20px;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         &__image{
             &:hover img{

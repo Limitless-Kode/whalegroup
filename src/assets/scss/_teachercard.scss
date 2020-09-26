@@ -16,11 +16,17 @@
     }
     &__description{
         text-align: center;
+        display: flex;
+        flex-direction: column;
         &__title{
-            font-size: 16px;
+            margin-top: 15px;
             h3{
-                margin: 15px 0px 0px 0px;
+                margin: 0;
             }
+            font-size: 16px;
+        }
+        &__subtext{
+            
         }
     }
 }
@@ -36,7 +42,7 @@
             &__title{
                 font-size: 12px;
                 h3{
-                    margin: 5px 0px 0px 0px;
+                    margin-top: 5px;
                 }
             }
         }
@@ -53,7 +59,7 @@
             &__title{
                 font-size: 16px;
                 h3{
-                    margin: 10px 0px 0px 0px;
+                    margin-top: 10px;
                 }
             }
         }

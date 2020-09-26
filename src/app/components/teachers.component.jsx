@@ -8,13 +8,13 @@ export default function Teachers(){
           <h2>Our Best Teachers</h2>
         </div>
         <div className="teachers__list">
-          <TeacherCard title="Alexa Janathon" subtext="Faculty" image={require("../../assets/images/teachers/team1.png")}/>
-          <TeacherCard title="Alexa Janathon" subtext="Faculty" image={require("../../assets/images/teachers/team2.png")}/>
-          <TeacherCard title="Alexa Janathon" subtext="Faculty" image={require("../../assets/images/teachers/team3.png")}/>
-          <TeacherCard title="Alexa Janathon" subtext="Faculty" image={require("../../assets/images/teachers/team4.png")}/>
+          <TeacherCard title="Precious Bonsu" subtext="CEO &amp; Founder" image={require("../../assets/images/staff/founder.jpg")}/>
+          <TeacherCard title="Regina Hodanu" subtext="HR &amp; Administrator" image={require("../../assets/images/staff/hr.jpg")}/>
+          <TeacherCard title="Jessica Dufe" subtext="Teaching Coordinator" image={require("../../assets/images/staff/tc.jpg")}/>
+          <TeacherCard title="James Gosling" subtext="Public Relations" image={require("../../assets/images/staff/founder.jpg")}/>
         </div>
         <div className="button">
-          <button className="white">View All Faculties</button>
+          <button className="white">Learn More</button>
         </div>
 		  </section>
     );
