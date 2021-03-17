@@ -32,10 +32,15 @@ p{
     height: 70vh;
 }
 
+a.btn{
+    color: #fff !important;
+    // display: inline-block !important;
+}
 .btn,
 button{
     background: #2d3092;
     padding: 25px 30px;
+    min-width: 120px;
     color: #fff;
     &.white{
         background-color: $offwhite;
@@ -54,6 +59,7 @@ button{
     font-weight: 400;
     letter-spacing: 1px;
     line-height: 0;
+    height: 45px;
     margin-bottom: 0;
     margin: 10px;
     cursor: pointer;

@@ -16,8 +16,9 @@
         .jumbotron__description__title{
             font-size: clamp(14px, 5vw, 22px);
             font-weight: 700;
-            width: 40vw;
+            width: 35vw;
             line-height: 1.2;
+            margin-right: 60px;
             margin-bottom: 36px;
         }
     }
@@ -65,14 +66,18 @@
     .jumbotron{
         .jumbotron__description{
             .jumbotron__description__title{
-                width: 40vw;
+                h1{
+                    font-size: 18px;
+                }
+                width: 30vw;
+                margin-right: 30px;
             }
         }
         .jumbotron__image{
             grid-gap: 10px;
             .jumbotron__box{
-                height: 150px;
-                width: 150px;
+                height: 120px;
+                width: 120px;
             }
         }
     }

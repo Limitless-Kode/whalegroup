@@ -22,13 +22,29 @@
     }
 }
 
+@media(max-width: 760px){
+    .teachers{
+        padding: 30px;
+        .teachers__title{
+            margin-bottom: 20px;
+            h2{
+                font-size: 26px;
+            }
+        }
+        .teachers__list{
+            grid-gap: 20px;
+            margin-bottom: 45px;
+        }
+    }
+}
+
 @media(max-width: 460px){
     .teachers{
         padding: 30px;
         .teachers__title{
-            margin-bottom: 30px;
+            margin-bottom: 20px;
             h2{
-                font-size: 32px;
+                font-size: 36px;
             }
         }
         .teachers__list{

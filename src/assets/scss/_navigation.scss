@@ -10,9 +10,11 @@
     padding: 0px 60px;
     &__links{
         display: flex;
+        justify-content: center;
+        align-items: center;
         a{
             outline: none;
-            padding: 20px 35px;
+            margin: 20px 35px;
             color: $dark;
             font-weight: 500;
         }
@@ -22,12 +24,18 @@
 
 @media(max-width: 760px){
     .navigation{
-       display: none;
         &__links{
             position: fixed;
+            top: 0;
+            left: 0;
+            flex-direction: column;
+            background-color: $primary-color;
+            z-index: 99;
+            height: 100vh;
+            width: 80vw;
             a{
+                color: white;
                 padding: 20px 35px;
-                color: $dark;
                 font-weight: 500;
             }
         }
