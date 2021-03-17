@@ -8,10 +8,19 @@
     align-items: center;
     justify-content: space-between;
     padding: 0px 60px;
+    #menu{
+        cursor: pointer;
+        display: none;
+    }
     &__links{
+        #close{
+            cursor: pointer;
+            display: none;
+        }
         display: flex;
         justify-content: center;
         align-items: center;
+        transition: all 0.5s;
         a{
             outline: none;
             margin: 20px 35px;
@@ -24,15 +33,28 @@
 
 @media(max-width: 760px){
     .navigation{
+        #menu{
+            display: inline-block;
+        }
         &__links{
+            #close{
+                display: inline-block;
+                position: absolute;
+                top: 20px;
+                right: 20px;
+                color: white;
+            }
             position: fixed;
             top: 0;
-            left: 0;
+            left: -100vw;
+            &.show{
+                left: 0;
+            }
             flex-direction: column;
             background-color: $primary-color;
             z-index: 99;
             height: 100vh;
-            width: 80vw;
+            width: 100vw;
             a{
                 color: white;
                 padding: 20px 35px;
