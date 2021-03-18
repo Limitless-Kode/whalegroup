@@ -7,7 +7,7 @@ import Offers from '../components/offers.component';
 import Quote from '../components/quote.component';
 import Teachers from '../components/teachers.component';
 import Testimonies from '../components/Testimonies.component';
-
+//some secret: rzO7qHxpTZcQt2haQZJShwfVF2rpc6ccGIP9yhVd : Twilio
 export default function Home(props) {
     return (
         <div>
