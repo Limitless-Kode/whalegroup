@@ -2,7 +2,7 @@ import React from 'react';
 import Map from '../components/map.component';
 
 
-export default function About(props) {
+export default function Gallery(props) {
     return (
         <>
           <div className="about_us">
