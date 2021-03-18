@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "15fac4895d26c6f52777c72a79084afc",
+    "revision": "6069db9c67bb08c59d6b3f457bbc119c",
     "url": "/whalegroup/index.html"
   },
   {
-    "revision": "06723ed60f786565d2f0",
-    "url": "/whalegroup/static/css/main.d154e328.chunk.css"
+    "revision": "766be44d27462d5e1c77",
+    "url": "/whalegroup/static/css/main.9a3aa94e.chunk.css"
   },
   {
-    "revision": "9f4c2aaab1f49b595911",
-    "url": "/whalegroup/static/js/2.11182033.chunk.js"
+    "revision": "3aee72347fc053afebcc",
+    "url": "/whalegroup/static/js/2.7cd7c59f.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/whalegroup/static/js/2.11182033.chunk.js.LICENSE.txt"
+    "url": "/whalegroup/static/js/2.7cd7c59f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "06723ed60f786565d2f0",
-    "url": "/whalegroup/static/js/main.2fb05480.chunk.js"
+    "revision": "766be44d27462d5e1c77",
+    "url": "/whalegroup/static/js/main.bfaea575.chunk.js"
   },
   {
     "revision": "b09cad92d6ea8c2053aa",
@@ -80,16 +80,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/whalegroup/static/media/8.fc8115a2.jpg"
   },
   {
+    "revision": "755f78f5ab89d8e63b43969b765cc250",
+    "url": "/whalegroup/static/media/Atma-Bold.755f78f5.ttf"
+  },
+  {
     "revision": "37dfc84ae96372ab11d6647bd18a4be3",
     "url": "/whalegroup/static/media/Flaticon.37dfc84a.woff2"
   },
   {
-    "revision": "496dd8d6a0dedc6782b68b4d06b195a3",
-    "url": "/whalegroup/static/media/Flaticon.496dd8d6.woff"
+    "revision": "422e4eb5f6433437f506b4b77627c71e",
+    "url": "/whalegroup/static/media/Flaticon.422e4eb5.svg"
   },
   {
-    "revision": "71cdb9d71b1436a71de9eb15f798e228",
-    "url": "/whalegroup/static/media/Flaticon.71cdb9d7.svg"
+    "revision": "496dd8d6a0dedc6782b68b4d06b195a3",
+    "url": "/whalegroup/static/media/Flaticon.496dd8d6.woff"
   },
   {
     "revision": "8ef4693b426d06717550f6e0d2ddd44c",
@@ -100,12 +104,36 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/whalegroup/static/media/Flaticon.f01b8d04.eot"
   },
   {
+    "revision": "c8b6e083af3f94009801989c3739425e",
+    "url": "/whalegroup/static/media/Montserrat-Medium.c8b6e083.ttf"
+  },
+  {
+    "revision": "ee6539921d713482b8ccd4d0d23961bb",
+    "url": "/whalegroup/static/media/Montserrat-Regular.ee653992.ttf"
+  },
+  {
+    "revision": "3ed9575dcc488c3e3a5bd66620bdf5a4",
+    "url": "/whalegroup/static/media/OpenSans-Regular.3ed9575d.ttf"
+  },
+  {
+    "revision": "f9baef8ac0d836e6486419e282e42336",
+    "url": "/whalegroup/static/media/Quicksand-VariableFont_wght.f9baef8a.ttf"
+  },
+  {
     "revision": "aab9df302771b88b821e9f1d6b6013cd",
     "url": "/whalegroup/static/media/bg.aab9df30.png"
   },
   {
     "revision": "d0cdbd8d8d46deb06fa582ac42a2c80f",
     "url": "/whalegroup/static/media/bg.d0cdbd8d.png"
+  },
+  {
+    "revision": "fca32bb5779e082b79567e09ae995fdc",
+    "url": "/whalegroup/static/media/founder.fca32bb5.jpg"
+  },
+  {
+    "revision": "bccc8916aab3549b77072938ab9e3562",
+    "url": "/whalegroup/static/media/hr.bccc8916.jpg"
   },
   {
     "revision": "05acfdb568b3df49ad31355b19495d4a",
@@ -120,28 +148,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/whalegroup/static/media/ionicons.2c2ae068.eot"
   },
   {
-    "revision": "621bd386841f74e0053cb8e67f8a0604",
-    "url": "/whalegroup/static/media/ionicons.621bd386.svg"
+    "revision": "c037dbbc0e6790f30e824a50010df5fb",
+    "url": "/whalegroup/static/media/ionicons.c037dbbc.svg"
+  },
+  {
+    "revision": "7447f7326f2aaf6b20ae65f00052b4b8",
+    "url": "/whalegroup/static/media/logo.7447f732.png"
   },
   {
     "revision": "0cfab5dd6fef6737fe4450c535ebaf05",
     "url": "/whalegroup/static/media/quote.0cfab5dd.mp4"
   },
   {
-    "revision": "3636cdcda41899ff80fe6547cb3aeb34",
-    "url": "/whalegroup/static/media/team1.3636cdcd.png"
-  },
-  {
-    "revision": "4b4feb654c48b636728ac4563ec81ce5",
-    "url": "/whalegroup/static/media/team2.4b4feb65.png"
-  },
-  {
-    "revision": "eaea3b55cc685a81b453c00c4fda2b3b",
-    "url": "/whalegroup/static/media/team3.eaea3b55.png"
-  },
-  {
-    "revision": "b504828c91f404d6f1d12bccbe980d89",
-    "url": "/whalegroup/static/media/team4.b504828c.png"
+    "revision": "a3129688825965eff739c85a81adb715",
+    "url": "/whalegroup/static/media/tc.a3129688.jpg"
   },
   {
     "revision": "407c3f918b6a44692a46e87653dba546",
